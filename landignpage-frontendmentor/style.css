@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: min-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  filter: drop-shadow(0 0 8px rgba(1, 1, 1, 1));
+}
+
+main :first-child {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.description {
+  margin: 30px 50px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.change-plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 13px;
+  width: 350px;
+  height: 70px;
+}
+
+.change-plan img {
+  height: 32px;
+}
+
+.change-plan a {
+  text-decoration: none;
+}
+
+.change-plan a:hover {
+  text-decoration: underline;
+}
+
+.plan_price {
+  margin-left: 15px;
+  margin-right: 70px;
+}
+
+.plan_price h2 {
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.plan_price span {
+  font-size: 16px;
+}
+
+.payment {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.payment button {
+  width: 400px;
+  height: 65px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-color: transparent;
+  transition-duration: 0.5s;
+
+  background-color: hsl(245, 75%, 52%);
+}
+
+.payment button:hover {
+  transition-property: box-shadow, background, color;
+  box-shadow: 0 10px 10px gray;
+  background: #8a2be2;
+  border-color: black;
+}
+
+.payment a {
+  color: gray;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.payment a:hover {
+  text-decoration: underline;
+}
